@@ -1,31 +1,46 @@
 body
-{background-color: #E1EAE2;
+{background-color: #D7CBB4;
+color: #332222;
 font-family: Trebuchet MS;
 font-size: 20px}
 
 h1 
 {text-align : center;
-color: #744F8C;
+color: #9999;
 font-weight: bold;
+}
+
+#container1 {
+  position: relative;
+}
+
+#box1 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
 }
 
 h2
 {background-color: #635482;
-background-image:-moz-linear-gradient(left, #E1EAE2, #635482);
-border-radius:-moz-linear-gradient(left, #E1EAE2, #635482);
-border-radius: 15px;}
+background-image:-moz-linear-gradient(left, #D7CBB4, #836243);
+border-radius:-moz-linear-gradient(left, #D7CBB4, #836243);
+border-radius: 15px;
+vertical-align:top;}
 
 div#contact
 {text-align: center;
-color : #272827;
+color : #775544;
 font-size : 20px;
 border-style: double;
 border-radius: 15px;
-border-color: #744F8C;}
+border-color: #836243;}
 
 .year 
-{color: #744F8C;
+{color: #775544;
 font-size: 22px;}
+
+div#lang
+{color: #775544;}
 
 p
 {margin-top : 10px;
@@ -36,4 +51,5 @@ table
 
 td
 {width : 620px;
-height: 80px;}
+height: 80px;
+vertical-align: Top;}
