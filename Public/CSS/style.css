@@ -10,6 +10,13 @@ color: #9999;
 font-weight: bold;
 }
 
+h2
+{background-color: #635482;
+background-image:-moz-linear-gradient(left, #D7CBB4, #836243);
+border-radius:-moz-linear-gradient(left, #D7CBB4, #836243);
+border-radius: 15px;
+vertical-align:top;}
+
 #container1 {
   position: relative;
 }
@@ -20,12 +27,6 @@ font-weight: bold;
   left: 50px;
 }
 
-h2
-{background-color: #635482;
-background-image:-moz-linear-gradient(left, #D7CBB4, #836243);
-border-radius:-moz-linear-gradient(left, #D7CBB4, #836243);
-border-radius: 15px;
-vertical-align:top;}
 
 
 div#contact
@@ -39,6 +40,8 @@ border-color: #836243;}
 div#table1
 {width : "50%";}
 
+div#lang
+{color: #775544;}
 
 .year 
 {color: #775544;
@@ -51,8 +54,8 @@ font-size: 22px;
 .university
 {text-align : left;}
 
-div#lang
-{color: #775544;}
+
+
 
 p
 {margin-top : 10px;
