@@ -27,6 +27,7 @@ border-radius:-moz-linear-gradient(left, #D7CBB4, #836243);
 border-radius: 15px;
 vertical-align:top;}
 
+
 div#contact
 {text-align: center;
 color : #775544;
@@ -35,9 +36,20 @@ border-style: double;
 border-radius: 15px;
 border-color: #836243;}
 
+div#table1
+{width : "50%";}
+
+
 .year 
 {color: #775544;
-font-size: 22px;}
+font-size: 22px;
+}
+
+.mask
+{visibility : hidden;}
+
+.university
+{text-align : left;}
 
 div#lang
 {color: #775544;}
@@ -47,9 +59,60 @@ p
 margin-left: 5px;}
 
 table
-{margin: left;}
+{margin: left;
+}
 
 td
-{width : 620px;
+{width : 600px;
 height: 80px;
-vertical-align: Top;}
+vertical-align: middle;}
+
+*{
+margin:0;
+padding:0;
+}
+body{
+font:12px Arial, Helvetica, sans-serif;
+color:white;
+}
+a{
+text-decoration:none;
+color:white;
+}
+
+
+#wrapper{
+padding:40px 40px;
+}
+#menu{
+float:middle;
+}
+ul,li{
+list-style:none;
+}
+li{
+padding:10px 10px;
+height:40px;
+float:left;
+width:300px;
+background-color:#836243;
+border-right:1px solid #836243;
+overflow:hidden;
+display:block;
+}
+li a{
+float:left;
+vertical-align:top;
+position:absolute;
+}
+li p{
+vertical-align:top;
+text-align:left;
+margin-left:0;
+margin-top:0;
+padding-left:65px;
+width:155px;
+text-align:right;
+color:#CCCCCC;
+display:none;
+}
